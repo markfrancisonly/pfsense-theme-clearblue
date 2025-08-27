@@ -532,7 +532,6 @@ table[data-sortable].sortable-theme-bootstrap thead th {
 }
 
 .ui-wrapper > select.ui-resizable {
-  width: 100% !important;
   display: block;
 }
 
