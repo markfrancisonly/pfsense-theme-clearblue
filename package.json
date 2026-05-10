@@ -1,5 +1,8 @@
 {
   "dependencies": {
-    "sass": "^1.80.3"
+    "sass": "^1.99.0"
+  },
+  "scripts": {
+    "build-css": "sass clearblue.scss clearblue.css"
   }
 }
