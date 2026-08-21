@@ -523,4 +523,21 @@ table[data-sortable].sortable-theme-bootstrap thead th {
   white-space: nowrap;
 }
 
+/** resizable multi-select fix for unbound interface list */
+.ui-wrapper {
+  overflow: visible !important;
+  padding-right: 0 !important;
+  height: auto !important;
+  min-height: 80px;
+}
+
+.ui-wrapper > select.ui-resizable {
+  display: block;
+}
+
+select[multiple] {
+  resize: both !important;
+  min-height: 80px;
+}
+
 /*# sourceMappingURL=clearblue.css.map */
